@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace _3_Questao
 {
-    internal class Triangulo
+    public class Triangulo : Figura
     {
+        public double Base { get; set; }
+        public double Altura { get; set; }
+        public override double CalcularArea => (this.Base * this.Altura) / 2;
+    }
+}
+
+
+
+        /*
         public Triangulo()
         {
             this.Altura = 0;
@@ -50,6 +59,4 @@ namespace _3_Questao
             Console.WriteLine("Altura: " + this.Altura);
             Console.WriteLine("Area: " + this.Area);
         }
-
-    }
-}
+        */

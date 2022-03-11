@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Circulo.cs" />
+    <Compile Include="Figura.cs" />
     <Compile Include="Quadrado.cs" />
     <Compile Include="Triangulo.cs" />
     <Compile Include="Program.cs" />

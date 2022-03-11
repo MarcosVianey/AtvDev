@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace _3_Questao
 {
-    internal class Quadrado
+    public class Quadrado : Figura
     {
+        public double Lado { get; set; }
+        public override double CalcularArea => this.Lado * this.Lado;
+
+    }
+}
+
+       /*
         public Quadrado()
         {
             this.Altura = 0;
@@ -53,5 +60,4 @@ namespace _3_Questao
             Console.WriteLine("Altura " + this.Altura);
             Console.WriteLine("Area: " + this.Area);
         }
-    }
-}
+        */
